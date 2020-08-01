@@ -15,7 +15,7 @@ public class RotateArrayTest {
 
     @Test
     public void rightRotate() {
-        Integer[] arr = { 1, 2, 3, 4, 5, 6 };
+        Integer[] arr = {1, 2, 3, 4, 5, 6};
         RotateArray rotateArray = new RotateArray();
         rotateArray.rightRotate(arr, 2);
         Assertions.assertEquals(arr.length, 6);
@@ -26,11 +26,11 @@ public class RotateArrayTest {
     }
 
     /**
-     * Kotlin rightRotate
+     * Kotlin right rotate
      */
     @Test
     public void kRightRotate() {
-        Integer[] arr = { 1, 2, 3, 4, 5, 6 };
+        Integer[] arr = {1, 2, 3, 4, 5, 6};
         KRotateArray rotateArray = new KRotateArray();
         rotateArray.rightRotate(Arrays.asList(arr), 2);
         Assertions.assertEquals(arr.length, 6);
@@ -42,7 +42,7 @@ public class RotateArrayTest {
 
     @Test
     public void leftRotate() {
-        Integer[] arr = { 1, 2, 3, 4, 5, 6 };
+        Integer[] arr = {1, 2, 3, 4, 5, 6};
         RotateArray rotateArray = new RotateArray();
         rotateArray.leftRotate(arr, 2);
         Assertions.assertEquals(arr.length, 6);
@@ -52,9 +52,12 @@ public class RotateArrayTest {
         Assertions.assertEquals(arr[5], 2);
     }
 
+    /**
+     * Kotlin left rotate
+     */
     @Test
     public void kLeftRotate() {
-        Integer[] arr = { 1, 2, 3, 4, 5, 6 };
+        Integer[] arr = {1, 2, 3, 4, 5, 6};
         KRotateArray rotateArray = new KRotateArray();
         rotateArray.leftRotate(Arrays.asList(arr), 2);
         Assertions.assertEquals(arr.length, 6);
@@ -64,4 +67,21 @@ public class RotateArrayTest {
         Assertions.assertEquals(arr[5], 2);
     }
 
+    @Test
+    public void rotateToLeftArrayOneByOne() {
+        int[] arr = {1,2,3,4};
+        RotateArray rotateArray = new RotateArray();
+        int[] arr2 = rotateArray.simpleLeftRotateOneByOne(arr);
+        Assertions.assertEquals(arr2[0], 2);
+        Assertions.assertEquals(arr2[3], 1);
+    }
+
+    @Test
+    public void rotateToRightArrayOneByOne() {
+        int[] arr = {1,2,3,4};
+        RotateArray rotateArray = new RotateArray();
+        int[] arr2 = rotateArray.simpleRightRotateOneByOne(arr);
+        Assertions.assertEquals(arr2[0], 4);
+        Assertions.assertEquals(arr2[3], 3);
+    }
 }
