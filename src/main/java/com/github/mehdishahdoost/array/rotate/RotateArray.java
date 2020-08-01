@@ -1,4 +1,4 @@
-package com.github.mehdishahdoost.array.leftrotate;
+package com.github.mehdishahdoost.array.rotate;
 
 import java.util.Arrays;
 import java.util.Collections;
