@@ -18,4 +18,6 @@ As an astronomer, he designed the Jalali calendar, a solar calendar with a very 
 ### List of DS & Math & Algorithm
 
 * GCD (Greatest Common Divisor) ( Java and Kotlin)
-* Array Left and Right rotate with Java BuiltIn Collections class (Java and Kotlin)
+* Array Left and Right rotate with Java Built-In Collections class (Java and Kotlin)
+* Simple array left and right rotate with copy array
+* Array left and right in-place rotate
