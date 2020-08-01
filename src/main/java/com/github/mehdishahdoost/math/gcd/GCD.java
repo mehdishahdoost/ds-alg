@@ -1,4 +1,4 @@
-package com.github.mehdishahdoost.math;
+package com.github.mehdishahdoost.math.gcd;
 
 /**
  * GCD (Greatest Common Divisor) or HCF (Highest Common Factor) of two numbers
