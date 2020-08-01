@@ -78,4 +78,24 @@ public class RotateArray {
         }
         arr[0] = temp;
     }
+
+    /**
+     * Time Space: O(n*d)
+     * Auxiliary Space: O(1)
+     */
+    public void rotateLeftMultipleInPlace(int[] arr, int d) {
+        for (int i = 0; i < d; i++) {
+            rotateLeftInPlaceOneByOne(arr);
+        }
+    }
+
+    /**
+     * Time Space: O(n*d)
+     * Auxiliary Space: O(1)
+     */
+    public void rotateRightMultipleInPlace(int[] arr, int d) {
+        for (int i = 0; i < d; i++) {
+            rotateRightInPlaceOneByOne(arr);
+        }
+    }
 }
