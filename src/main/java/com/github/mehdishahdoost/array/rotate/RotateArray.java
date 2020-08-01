@@ -52,4 +52,30 @@ public class RotateArray {
         temp[0] = arr[arr.length - 1];
         return temp;
     }
+
+    /**
+     * Inplace left place rotate one bye one
+     * Time Space: O(n)
+     * Auxiliary Space: O(1)
+     */
+    public void rotateLeftInPlaceOneByOne(int[] arr) {
+        int temp = arr[0];
+        for (int i = 0; i < arr.length - 1; i++) {
+            arr[i] = arr[i + 1];
+        }
+        arr[arr.length - 1] = temp;
+    }
+
+    /**
+     * Inplace right place rotate one bye one
+     * Time Space: O(n)
+     * Auxiliary Space: O(1)
+     */
+    public void rotateRightInPlaceOneByOne(int[] arr) {
+        int temp = arr[arr.length - 1];
+        for (int i = arr.length - 1; i > 0; i--) {
+            arr[i] = arr[i - 1];
+        }
+        arr[0] = temp;
+    }
 }

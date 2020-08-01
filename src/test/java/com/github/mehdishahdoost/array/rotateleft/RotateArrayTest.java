@@ -84,4 +84,22 @@ public class RotateArrayTest {
         Assertions.assertEquals(arr2[0], 4);
         Assertions.assertEquals(arr2[3], 3);
     }
+
+    @Test
+    public void rotateToLeftInPlaceOneByOne() {
+        int[] arr = {1,2,3,4};
+        RotateArray rotateArray = new RotateArray();
+        rotateArray.rotateLeftInPlaceOneByOne(arr);
+        Assertions.assertEquals(arr[0], 2);
+        Assertions.assertEquals(arr[3], 1);
+    }
+
+    @Test
+    public void rotateToRightInPlaceOneByOne() {
+        int[] arr = {1,2,3,4};
+        RotateArray rotateArray = new RotateArray();
+        rotateArray.rotateRightInPlaceOneByOne(arr);
+        Assertions.assertEquals(arr[0], 4);
+        Assertions.assertEquals(arr[3], 3);
+    }
 }
