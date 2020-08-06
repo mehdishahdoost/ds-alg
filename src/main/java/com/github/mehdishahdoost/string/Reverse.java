@@ -3,7 +3,7 @@ package com.github.mehdishahdoost.string;
 /**
  * @author Mehdi Shahdoost
  */
-public class StringOperation {
+public class Reverse {
 
     /**
      * Reverses a string by recursive function
