@@ -23,3 +23,4 @@ As an astronomer, he designed the Jalali calendar, a solar calendar with a very 
 * Array left and right in-place rotate
 * Reverse String with for-loop, Java BuiltIn Functions, Recursion
 * String Anagram
+* String unique Characters
