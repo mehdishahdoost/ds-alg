@@ -26,4 +26,5 @@ As an astronomer, he designed the Jalali calendar, a solar calendar with a very 
 * String unique Characters
 * String Rotation
 * Find duplicate characters in string
-* Find first non-repeated character in string 
+* Find first non-repeated character in string
+* Find all SubString of string 
