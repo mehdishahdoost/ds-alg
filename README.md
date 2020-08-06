@@ -21,3 +21,4 @@ As an astronomer, he designed the Jalali calendar, a solar calendar with a very 
 * Array Left and Right rotate with Java Built-In Collections class (Java and Kotlin)
 * Simple array left and right rotate with copy array
 * Array left and right in-place rotate
+* Reverse String with for-loop, Java BuiltIn Functions, Recursion
