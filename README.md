@@ -28,3 +28,4 @@ As an astronomer, he designed the Jalali calendar, a solar calendar with a very 
 * Find duplicate characters in string
 * Find first non-repeated character in string
 * Find all SubString of string 
+* Find Smallest and Largest elements in array

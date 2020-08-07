@@ -1,4 +1,4 @@
-package com.github.mehdishahdoost.array.rotate;
+package com.github.mehdishahdoost.array;
 
 import java.util.*
 

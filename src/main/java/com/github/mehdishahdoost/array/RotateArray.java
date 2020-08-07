@@ -1,4 +1,4 @@
-package com.github.mehdishahdoost.array.rotate;
+package com.github.mehdishahdoost.array;
 
 import com.github.mehdishahdoost.math.gcd.GCD;
 

@@ -1,7 +1,7 @@
-package com.github.mehdishahdoost.array.rotateleft;
+package com.github.mehdishahdoost.array;
 
-import com.github.mehdishahdoost.array.rotate.KRotateArray;
-import com.github.mehdishahdoost.array.rotate.RotateArray;
+import com.github.mehdishahdoost.array.KRotateArray;
+import com.github.mehdishahdoost.array.RotateArray;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
