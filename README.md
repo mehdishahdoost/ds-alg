@@ -33,3 +33,4 @@ As an astronomer, he designed the Jalali calendar, a solar calendar with a very 
 * Find element in sorted and rotated array with O(log n) complexity
 * Find minimum element in sorted and rotated array with O(log n) complexity
 * Find second Largest element in array with O(n) complexity
+* Find the number occurring odd number of times in an array
