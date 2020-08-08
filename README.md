@@ -31,3 +31,4 @@ As an astronomer, he designed the Jalali calendar, a solar calendar with a very 
 * Find Smallest and Largest elements in array
 * Find Missing element in an array of [1...n]
 * Find element in sorted and rotated array with O(log n) complexity
+* Find minimum element in sorted and rotated array with O(log n) complexity
