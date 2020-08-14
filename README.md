@@ -32,10 +32,10 @@ As an astronomer, he designed the Jalali calendar, a solar calendar with a very 
 * Find Missing element in an array of [1...n]
 * Find element in sorted and rotated array with O(log n) complexity
 * Find minimum element in sorted and rotated array with O(log n) complexity
-* Find second Largest element in array with O(n) complexity
+* Find second Largest element in an array with O(n) complexity
 * Find the number occurring odd number of times in an array
 * Sort a Stack using another stack
 * Implement a stack using array
 * Implement a stack using Linked List
 * Implement a stack using two queues
-* Sort an stack using another stack
+* Sort a stack using another stack
