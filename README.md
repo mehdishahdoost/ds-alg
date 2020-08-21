@@ -45,3 +45,4 @@ As an astronomer, he designed the Jalali calendar, a solar calendar with a very 
 * Get sum of all nodes of binary tree
 * Get difference of values at Even & Odd level in binary tree
 * Get number of all nodes in binary tree
+* Get number of Leaf Nodes in Binary Tree
