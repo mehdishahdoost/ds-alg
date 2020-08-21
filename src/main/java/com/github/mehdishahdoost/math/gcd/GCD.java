@@ -2,11 +2,11 @@ package com.github.mehdishahdoost.math.gcd;
 
 /**
  * GCD (Greatest Common Divisor) or HCF (Highest Common Factor) of two numbers
- * is the largest number that divides both of them.
+ * is the largest number that    divides both of them.
  * 
  * @author Mehdi Shahdoost
  */
-public class GCD {
+public class    GCD {
 
     /**
      * An efficient solution is to use Euclidean algorithm which is the main
