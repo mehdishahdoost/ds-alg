@@ -40,4 +40,5 @@ As an astronomer, he designed the Jalali calendar, a solar calendar with a very 
 * Implement a stack using two queues
 * Sort a stack using another stack
 * Implement a Queue using array
-* Traverse Binary tree with BFS and DFS 
+* Traverse Binary tree with BFS and DFS
+* Traverse Binary tree with InOrder - PreOrder - PostOrder traversal

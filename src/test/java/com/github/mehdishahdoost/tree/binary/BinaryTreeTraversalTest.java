@@ -1,14 +1,10 @@
-package com.github.mehdishahdoost.tree.binart;
+package com.github.mehdishahdoost.tree.binary;
 
-import com.github.mehdishahdoost.tree.binary.BfsTraversal;
-import com.github.mehdishahdoost.tree.binary.DfsTraversal;
-import com.github.mehdishahdoost.tree.binary.Node;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 
-import java.util.Collections;
 import java.util.stream.Collectors;
 
 /**
