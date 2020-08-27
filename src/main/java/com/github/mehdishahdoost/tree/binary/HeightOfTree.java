@@ -8,7 +8,7 @@ public class HeightOfTree {
 
     public int getHeight(IntNode root) {
         if(root == null)
-            return -1;
+            return 0;
         return max(getHeight(root.getLeft()), getHeight(root.getRight())) + 1;
     }
 

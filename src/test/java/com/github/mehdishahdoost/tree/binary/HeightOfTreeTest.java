@@ -23,6 +23,6 @@ public class HeightOfTreeTest {
     public void heightOfTree() {
         HeightOfTree heightOfTree = new HeightOfTree();
         int height = heightOfTree.getHeight(root);
-        Assertions.assertEquals(height, 3);
+        Assertions.assertEquals(height, 4);
     }
 }
