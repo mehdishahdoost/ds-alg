@@ -5,6 +5,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
+ * Level Order traversal using queue
+ *
  * @author Mehdi Shahdoost
  */
 public class BfsTraversal {
